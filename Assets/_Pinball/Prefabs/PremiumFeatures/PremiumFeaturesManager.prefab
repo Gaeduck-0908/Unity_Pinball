@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1961072718789162}
+  m_IsPrefabParent: 1
+--- !u!1 &1961072718789162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4694676315999100}
+  - component: {fileID: 114684198359498472}
+  - component: {fileID: 114840017652771200}
+  - component: {fileID: 114015866915174212}
+  - component: {fileID: 114526180425519890}
+  - component: {fileID: 114993256886854094}
+  - component: {fileID: 114117261473643126}
+  - component: {fileID: 114862098464989838}
+  - component: {fileID: 114565435565431528}
+  m_Layer: 0
+  m_Name: PremiumFeaturesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4694676315999100
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114015866915174212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47830b8d66c74670b0edccbd3721389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  removeAds: Remove_Ads
+--- !u!114 &114117261473643126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b09fb089ace462f97d934784390a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shareMessage: 'Awesome! I''ve just scored [score] in Bridges! #bridges'
+  screenshotFilename: screenshot.png
+--- !u!114 &114526180425519890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fbe9fd9e217e4be8b7f0593f9d77052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disable: 0
+  leaderboardName: Score
+--- !u!114 &114565435565431528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2704b2020ebbb41f080fdceb9072eeba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114684198359498472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a82e07b1c5ba4269b99c7a7010a0440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enablePremiumFeatures: 1
+--- !u!114 &114840017652771200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf4a2538c64745739e9bde27352b463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114862098464989838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff81a4c9a2e504cb69ebd33141bd5b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestMode: 0
+  gamesPlayedAfterInstall: 2
+  gamesPlayedBetweenRequests: 10
+  daysAfterInstall: 14
+  daysBetweenRequests: 14
+--- !u!114 &114993256886854094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961072718789162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0350242eae7d436cbc1dbc271373b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disable: 0
+  achievements:
+  - achievementName: Score_10
+    scoreToUnlock: 10
+  - achievementName: Score_20
+    scoreToUnlock: 20
+  - achievementName: Score_30
+    scoreToUnlock: 30
+  - achievementName: Score_40
+    scoreToUnlock: 40
+  - achievementName: Score_50
+    scoreToUnlock: 50
+  - achievementName: Score_60
+    scoreToUnlock: 60
+  - achievementName: Score_70
+    scoreToUnlock: 70
+  - achievementName: Score_80
+    scoreToUnlock: 80
+  - achievementName: Score_90
+    scoreToUnlock: 90
+  - achievementName: Score_100
+    scoreToUnlock: 100
+  - achievementName: Score_110
+    scoreToUnlock: 110
+  - achievementName: Score_120
+    scoreToUnlock: 120
+  - achievementName: Score_130
+    scoreToUnlock: 130
+  - achievementName: Score_140
+    scoreToUnlock: 140
+  - achievementName: Score_150
+    scoreToUnlock: 150
+  - achievementName: Score_160
+    scoreToUnlock: 160
+  - achievementName: Score_170
+    scoreToUnlock: 170
+  - achievementName: Score_180
+    scoreToUnlock: 180
+  - achievementName: Score_190
+    scoreToUnlock: 190
+  - achievementName: Score_200
+    scoreToUnlock: 200
