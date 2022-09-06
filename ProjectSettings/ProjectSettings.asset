@@ -155,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.sglib.demogame
+    Android: com.DefaultCompany.Unity_Pinball
     Standalone: unity.Your Company.Simple Pinball
     Tizen: com.sglib.demogame
     iPhone: com.sglib.demogame
@@ -253,8 +253,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: /Users/sonpt/Google Drive/Work/App KeyStores/Android/Release/sglib-games-demo.keystore
-  AndroidKeyaliasName: sglib_games_demo
+  AndroidKeystoreName: D:/windows/Desktop/user.keystore
+  AndroidKeyaliasName: pinball
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
