@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: DefaultCompany
+  companyName: Gaeduck
   productName: Unity_Pinball
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -155,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.Unity_Pinball
+    Android: com.Gaeduck.Unity_Pinball
     Standalone: unity.Your Company.Simple Pinball
     Tizen: com.sglib.demogame
     iPhone: com.sglib.demogame
